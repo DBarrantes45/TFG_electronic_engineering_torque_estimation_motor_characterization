@@ -40,9 +40,14 @@ This folder contains LabVIEW scripts used for data collection and real-time moni
 
 ## Content
 
-- `monitoring of variables.vi`: Script that was used to monitor the variables of interest such as speed, current and voltage, likewise, it makes an approximation of the torque induced by both motors, as well as the automatic control for the connection and disconnection of electrical loads.
-- `PID`: Script for the PID linear control used to control the operating speed of the plant.
-- `Miscellaneous Files`: Also, this folder contains miscellaneous files that are dependencies of the main files, as well as test files.
+- `Monitorización de variables.vi`: Script that was used to monitor the variables of interest such as speed, current and voltage, likewise, it makes an approximation of the torque induced by both motors, as well as the automatic control for the connection and disconnection of electrical loads.
+- `ControladorPIDparaVelocidad.vi`: Script for the linear PID control used to control the operating speed of the plant.
+- `ControladorPIDparaSEIG.vi`: Script used to control the behavior of the self-excited induction generator.
+- `Modbus_writing.vi`: File to control the prime mover through the VFD through the modbus protocol.
+- `Velocidad_rpm.vi`: Script used to convert and read speed in rpm.
+- `Corriente_rms.vi`: File to calculate the rms current generated at the output of the system.
+- `Voltaje_rms`: File to calculate the rms voltage generated at the output of the system.
+- `Estimador del torque subVI.vi`: File to calculate the torque induced by electric induction motors.
 
 # Use
 
